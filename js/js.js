@@ -163,7 +163,7 @@ function moverNave(){
 			document.onkeyup = null;
 			document.getElementById("ventana_titulo").style.visibility = "visible";
 			//alert("La nave explotó");
-			document.getElementById("ventana_titulo").innerHTML = '<b>La nave explotó</b><br><br><img src="img/fracaso.png">';
+			document.getElementById("ventana_titulo").innerHTML = '<b>La nave explotó</b><br><br><img src="img/fracaso.png"><br>La misión ha sido un fracaso';
 			for (var i=1;i<=12;i++) {
 				finalizar(i,0);
 			}
@@ -173,7 +173,7 @@ function moverNave(){
 			document.onkeyup = null;
 			document.getElementById("ventana_titulo").style.visibility = "visible";
 			//alert("Misión cumplida");
-			document.getElementById("ventana_titulo").innerHTML = '<b>Misión cumplida</b><br><br><img src="img/exito.png">';
+			document.getElementById("ventana_titulo").innerHTML = '<b>Misión cumplida</b><br><br><img src="img/exito.png"><br>¡Buen alunizaje!';
 			for (var i=1;i<=11;i++) {
 				finalizar(i,1);
 			}
