@@ -1,5 +1,5 @@
 # LLSGI02_Lunar_Landing_JavaScript
-## Segunda parte del desarrollo de la aplicación "Lunar Landing". 
+## Segunda parte del desarrollo de la aplicación "Lunar Landing" (Versión minificada). 
 
 ### El proyecto se compone de:
 * Tres archivos .html. 
@@ -40,7 +40,7 @@ Las animaciones de la nave, explosión o llegada exitosa están hechas con sprit
 ### Enlaces:
 Estos son los enlaces para ver los resultados:
   
-  https://rawgit.com/amadews23/LLSGI02_Lunar_Landing_JavaScript/master/index.html
+  https://rawgit.com/amadews23/LLSGI02_Lunar_Landing_JavaScript/minified/index.html
 
 
 
