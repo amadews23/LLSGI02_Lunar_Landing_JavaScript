@@ -164,9 +164,11 @@ function moverNave(){
 			animar_nave (600);
 			document.onkeydown = null;
 			document.onkeyup = null;
-			document.getElementById("ventana_titulo").style.visibility = "visible";
 			//alert("La nave explotó");
+			document.getElementById("ventana_titulo").style.visibility = "visible";
+			document.getElementById("ventana_contenido").style.visibility = "visible";
 			document.getElementById("ventana_titulo").innerHTML = "<b>La nave explotó</b>";
+			document.getElementById("ventana_contenido").innerHTML = "<br>Al haber aterrizado a una velocidad inferior de 5m/s en el modo fácil.3m/s en el modo medio. 1m/s en el modo difícil";
 			for (var i=1;i<=12;i++) {
 				finalizar(i,0);
 			}
