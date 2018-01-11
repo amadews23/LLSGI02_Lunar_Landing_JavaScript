@@ -66,7 +66,7 @@ function animar_nave (estado) {
 
 	var ctx = nave.getContext("2d");
 	if (estado == 600) {
-		ctx.clearRect(0, 0, 240, 160);
+		ctx.clearRect(0, 0, 240, 240);
 	} else {
 		ctx.clearRect(0, 0, 240, 160);
 		ctx.drawImage(document.getElementById("source"),
@@ -75,24 +75,22 @@ function animar_nave (estado) {
 }
 //funcion para crear la animacion  del final fin=0 explosion fin=1 cumplida
 function animar_fin (estado,fin) {
-
+	animar_nave(600);
 	nave.width=200;
 	nave.height=200;
-	//En source esta la imagen del sprite
 	var ctx = nave.getContext("2d");
 	if (fin==0) {
+		nave.style.top = "65%";
+		//En source esta la imagen del sprite
 		source.src ="img/explosion.png";
 		//ctx.clearRect(0, 0, 100, 160);
 		ctx.drawImage(document.getElementById("source"),
 	 	               estado, 0, 200, 200, 0, 0, 200,200);
 	}
 	if (fin==1) {
-	//nave.height=200;
-	//nave.width=200;
-	//En source esta la imagen del sprite
-	//var ctx = nave.getContext("2d");
+		nave.style.top = "71%";
 		source.src ="img/mision-cumplida.png";
-	//ctx.clearRect(0, 0, 100, 160);
+		//ctx.clearRect(0, 0, 100, 160);
 		ctx.drawImage(document.getElementById("source"),
 		               estado, 0, 280, 280, -30, -20, 280,280);
 	}
@@ -138,7 +136,6 @@ function moverNave(){
 	velocidad.innerHTML=v.toFixed(3);
 	altura.innerHTML=y.toFixed(3);
 	//mover hasta que top sea un 70% de la pantalla
-	//canvi 70 por 72
 	if (y<-100) {
 		//alert("¡La nave se salió de la órbita lunar!\n y se perdió en el espacio.");
 		document.getElementById("ventana_titulo").style.visibility = "visible";
@@ -148,20 +145,20 @@ function moverNave(){
 		document.onkeydown = motorOff;
 		pausado=1;
 	}
-	if (y<72){ 
+	//canvio 70 por 73
+	if (y<73){ 
 		nave.style.top = y+"%"; 
 	} else { 
 		stop();
 		//con estas lineas la nave no sigue gastando combustible
 		document.onkeydown = motorOff;
 		pausado=1;
-		//si al aterrizar supera la velocidad umbral
 		function finalizar(i,fin) {
 
 			setTimeout(function(){ animar_fin(i*200,fin); }, i*250);
 		}
+		//si al aterrizar supera la velocidad umbral
 		if(v > velocidad_umbral) {
-			animar_nave (600);
 			document.onkeydown = null;
 			document.onkeyup = null;
 			document.getElementById("ventana_titulo").style.visibility = "visible";
@@ -172,7 +169,6 @@ function moverNave(){
 			}
 		}
 		else {
-			animar_nave (600);
 			document.onkeydown = null;
 			document.onkeyup = null;
 			document.getElementById("ventana_titulo").style.visibility = "visible";
@@ -199,7 +195,6 @@ function motorOn(){
 		timerFuel=setInterval(function(){ actualizarFuel(); }, 10);	
 		
 	} else {
-		
 		motorOff();
   		raton_click = null;
 	}	
