@@ -30,7 +30,7 @@ Todas las imágenes han sido optimizadas con http://tinypng.com.
 * Se puede modificar  el tamaño del deposito y nivel de dificultad. La dificultad va definida por la velocidad máxima en que puede aterrizar la nave.
 * Se puede cambiar el tamaño del deposito.
 #### Objetivo:
-* Aterrizar a una velocidad inferior a la velocidad umbral.
+* Aterrizar a 72 metros desde el opunto de partida y a una velocidad inferior a la velocidad umbral.
 * Si la nave supera los 100 metros hacia arriba del punto de partida: desaparecerá de la órbita.
 * Si la nave se queda sin combustible no responderá a las ordenes que le demos y se precipitará.
 #### 
