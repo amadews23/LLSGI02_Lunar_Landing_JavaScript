@@ -34,7 +34,7 @@ Todas las imágenes han sido optimizadas con http://tinypng.com.
 * Si la nave supera los 100 metros hacia arriba del punto de partida: desaparecerá de la órbita.
 * Si la nave se queda sin combustible no responderá a las ordenes que le demos y se precipitará.
 #### 
-Las animaciones de la nave, explosión o llegada exitosa están hechas con sprites. Están contenidas en un canvas y programas con javascript.
+Las animaciones de la nave, explosión o llegada exitosa están hechas con sprites. Están contenidas en un canvas y programadas con javascript.
 
 ### Enlaces:
 Estos son los enlaces para ver los resultados:
