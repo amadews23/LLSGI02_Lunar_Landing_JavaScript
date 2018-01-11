@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lunar Landing</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<meta name="description" content="Primera parte de la aplicación web Lunar Landing">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/pc.css'>
+ 		<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/mob.css'>
+ 		<script src="js/js.js"></script>
+	</head>
+	<body>
+		<div class="izquierda">
+			 <ul id="cpanel">
+				<li><img id="velocidad" src="img/boton.png" alt="velocidad"><span class="panel">Speed</span><br><span id="velocidad_text">100</span>m/s</li>
+				<li><img id="fuel" src="img/boton.png" alt="combustible"><span class="panel">Fuel</span><br><span id="fuel_text">100.000</span>l</li>
+				<li><img id="altura" src="img/boton.png" alt="altura"><span class="panel">Height</span><br><span id="altura_text">60</span>m</li>
+				<li id="oculto_en_pc"><a href="#" onclick="mostrar_menu()"><img id="menu_movil" src="img/boton.png" alt="altura"></a></li>
+			</ul>
+		</div>
+   		<div id="sprite">
+			<img id="source" src="img/naves.png" alt="sprite">
+   		</div>
+		<div id="centro">
+			<canvas id="nave"></canvas>
+			<div id="ventana_titulo">
+			</div>
+			<div id="ventana_contenido">
+				<div id="contenido_ventana">
+					<br>
+					<form action="#" method ="get">
+						<b>Dificultad:</b>
+		 				<select id="dificultad" name="dificultat">
+		  					<option value="5">Fácil</option>
+		  					<option value="3">Media</option>
+		  					<option value="1">Difícil</option>
+						</select>
+						<br>
+						<b>Tamaño del deposito:</b>
+		 				<select id="deposito" name="deposito">
+		  					<option value="50">50 l</option>
+		  					<option value="100">100 l</option>
+		  					<option value="250">250 l</option>
+							<option value="500">500 l</option>
+							<option value="1000">1000 l</option>
+						</select>
+						<br>
+						<button>Guardar</button>			 
+					</form>			
+				</div>
+			</div>
+		</div>
+		<div id="derecha">
+			<a href=""><img id="restart" src="img/boton.png" alt="restart"><span class="enlaces">Reiniciar</span></a>
+			<a href="#" onclick="menu('configuracion')"><img id="configuracion" src="img/boton.png" alt="configuracion"><span class="enlaces"> Configuración</span></a>
+			<a href="#" onclick="menu('ayuda')"><img id="ayuda" src="img/boton.png" alt="ayuda"><span class="enlaces">Ayuda</span></a>
+			<a href="#" onclick="menu('about')"><img id="about" src="img/boton.png" alt="about"><span class="enlaces">Sobre Lunar Landing</span></a>
+		</div>
+		<div class="pie">
+		</div>
+	</body>
+</html>
