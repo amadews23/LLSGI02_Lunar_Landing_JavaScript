@@ -5,7 +5,7 @@
 * Tres archivos .html. 
 * Una carpeta css/ con dos archivos .css.
 * Una carpeta js/ con un arcivo .js. 
-* Una carpeta img/ que contiene siete imágenes en png.
+* Una carpeta img/ que contiene diez imágenes en png.
 
 La versión de móbil se diferencia:
   * Tiene el menú lateral derecho que está escondido, para mostrarlo hay que pulsar el botón verde de la derecha. El menú del móbil no tiene texto, son unos iconos.
