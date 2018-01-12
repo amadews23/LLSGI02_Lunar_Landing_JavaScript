@@ -29,7 +29,7 @@ Todas las imágenes han sido optimizadas con http://tinypng.com.
 * Se puede cambiar el tamaño del deposito.
 ##### Objetivo:
 * Aterrizar a 73 metros desde el opunto de partida y a una velocidad inferior a la velocidad umbral.
-* Si la nave supera los 100 metros hacia arriba del punto de partida:la nave se escapará de la órbita lunar.
+* Si la nave supera los 100 metros hacia arriba del punto de partida se escapará de la órbita lunar.
 * Si la nave se queda sin combustible no responderá a las ordenes que le demos y se precipitará.
 ##### Características del Juego  
 * Cuando la nave aterricé con exito saldrá la imagen animada de un astronauta con una bandera.
