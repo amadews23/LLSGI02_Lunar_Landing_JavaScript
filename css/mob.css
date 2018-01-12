@@ -6,8 +6,8 @@ body{font-size:4vw; background:url("../img/background.png") no-repeat center cen
 #centro{width:55%;height:90%;float:left; margin-top:15px;margin-left:1%; color:#00fff0;}
 #centro2{width:72%;height:90%;float:left; margin-top:15px;margin-left:1%; color:#00fff0;}
 #sprite{display:none;}
-#ventana_titulo{width:95%;border: 1px solid;color:#00fff0;text-align: center;margin-top:85px;margin-left:65px;}
-#ventana_contenido{width:95%;border: 1px solid;color:#00fff0;margin-left:65px}
+#ventana_titulo{width:95%;border: 1px solid;color:#00fff0;text-align: center;margin-top:85px;margin-left:50px;}
+#ventana_contenido{width:95%;border: 1px solid;color:#00fff0;margin-left:50px}
 #contenido_ventana{width:100%;visibility:hidden;text-align: center;}
 #titulo_ventana{width:100%;border: 1px solid;color:#00fff0;visibility:hidden;text-align: center;}
 
