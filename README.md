@@ -39,7 +39,7 @@ Todas las imágenes han sido optimizadas con http://tinypng.com.
 ### Enlaces:
 Este es el enlace para ver la página web:
   
-  https://rawgit.com/amadews23/LLSGI02_Lunar_Landing_JavaScript/master/index.html
+  https://rawgit.com/amadews23/LLSGI02_Lunar_Landing_JavaScript/minified/index.html
 
 
 
