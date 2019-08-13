@@ -1,6 +1,8 @@
 # LLSGI02_Lunar_Landing_JavaScript
 ## Segunda parte del desarrollo de la aplicación "Lunar Landing". 
 
+![ScreenShot](/img/Lunar_Landing.png)
+
 ### El proyecto se compone de:
 * Tres archivos .html. 
 * Una carpeta css/ con dos archivos .css.
