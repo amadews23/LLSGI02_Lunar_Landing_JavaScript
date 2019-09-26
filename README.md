@@ -34,7 +34,7 @@ Todas las imágenes han sido optimizadas con http://tinypng.com.
 * Si la nave supera los 100 metros hacia arriba del punto de partida se escapará de la órbita lunar.
 * Si la nave se queda sin combustible no responderá a las ordenes que le demos y se precipitará.
 ##### Características del Juego  
-* Cuando la nave aterricé con exito saldrá la imagen animada de un astronauta con una bandera.
+* Cuando la nave aterrice con exito saldrá la imagen animada de un astronauta con una bandera.
 * Si la nave no aterriza a la velocidad adecuada mostrará una animación de la nave destruyendose.
 * Las animaciones de la nave, explosión o llegada exitosa están hechas con sprites. Están contenidas en un canvas y programadas con javascript.
 
